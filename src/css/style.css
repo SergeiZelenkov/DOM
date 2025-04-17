@@ -1,0 +1,22 @@
+.ul {
+  margin: auto;
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+li {
+  list-style-type: none;
+  width: 100px;
+  height: 100px;
+  border: solid 1px;
+  background-color: green;
+}
+
+.red {
+  background-image: url("/pic/goblin.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
